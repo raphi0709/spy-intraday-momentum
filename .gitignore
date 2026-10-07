@@ -1,0 +1,24 @@
+# Secrets (Alpaca API keys)
+.env
+.env.*
+
+# Virtual environments
+.venv/
+venv/
+
+# Downloaded market data (re-created by data.py)
+data_cache/
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
